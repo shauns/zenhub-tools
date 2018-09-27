@@ -201,7 +201,9 @@ async function main() {
     console.log(" ");
   });
 
-  console.log(`Total: ${stats.open} / ${stats.closed + stats.open}`);
+  console.log(
+    `Total Outstanding: ${stats.open} / ${stats.closed + stats.open}`
+  );
 }
 
 main();
